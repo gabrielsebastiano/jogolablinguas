@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+@viewport {
+ width: device-width;
+}
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #0e315d;
+	font-size: 62.5%;
+}
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+#login {
+	background-color: #13437e;
+	height: 363px;
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-225px;
+	margin-left:-140px;
+}
+/* Margens */
+#login_wrap {
+	text-align: center;
+	width: auto;
+	  margin: 50px 30px 30px;
+}
+/* Margem IDV - Caixa dos campos */
+#login_com {
+  float: left;
+  height: auto;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 16px;
+  width: 100%;
+}
+#login_title_red {
+	height: 20px;
+  color: #fff;
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+}
+#lock_title_red {
+        height: 20px;
+  	color: #fff;
+  	font-size: 18px;
+  	width: 100%;
+  	text-align: center;
+	margin-top:50px ;
+}
+
+#login_title_alert {
+  height: 15px;
+  color: rgb(255, 0, 51);
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: blink;
+}
+#login_title {
+	float: left;
+	height: 20px;
+	width: 260px;
+	margin-bottom: 10px;
+	font-size: 0.7em;
+	color: #68554A;
+}
+#login_boxes {
+	font-size: 0.8em;
+	width: 80%;
+	float: left;
+}
+#lock_device {
+	text-align: center;
+        font-size: 12px;
+		width: 95%;
+        float: left;
+	margin: 10px 5px 5px 5px;
+}
+.login_fields {
+	border-radius: 5px;
+	height: 32px;
+	width: 94%;
+	margin-bottom: 5px;
+	float: left;
+	padding: 2px 1px 1px 5px;
+	font-size: 0.97em;
+}
+#login_title {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	color: #645953;
+}
+#login_title_links {
+	  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+
+	}
+#login a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.login_com {
+  color: #13437e !important;
+  font-weight: bold;
+  text-decoration: none;
+  width: 95%;
+  float: left;
+  padding: 5px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+#login h1 {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+	color: #645953;
+}
+/* Botão */
+#login_bt {
+	float: right;
+	top: 0px;
+	width: 40px;
+	height: 60px;
+}
+.login_bt_style {
+	background-image: url("http://login.w.lanfran.local/img/login_bt.png");
+	display: block;
+	border-style: none;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #1c9fda;
+	width: 100%;
+	float: right;
+	height: 83px;
+}
+.login_bt_style:hover {
+	background-color: #1b87b7;
+}
+/* Esqueceu senha */
+#login_remember {
+	float: left;
+	width: 260px;
+	margin: 0px;
+	color: #9C8374;
+	font-size: 12px;
+}
+#login_forgot {
+	color: #9C8374;
+	font-size: 9px;
+	margin: 10px 0px 0px;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+#lock_unlock {
+        color: #9C8374;
+        font-size: 9px;
+        margin: -15px 0px 0px;
+        float: left;
+        width: 100%;
+        height: auto;
+}
+.login_box {
+	height: 25px;
+	display: block;
+	text-align: center;
+	line-height: 25px;
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 5px;
+	background-color: #0e315d;
+	font-size: 1em;
+	float: left;
+	width: 100%;
+}
+.login_boxtitle {
+	display: block;
+	width: 90%;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 5px;
+	float: left;
+	line-height: 12px;
+	padding: 5%;
+}
+#login_credit {
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	color: #68554A;
+	margin-top: 20px;
+	height: auto;
+	width: 100%;
+}
+#login_credit img {
+	width: 20px;
+}
+#lock_icon {
+        float: left;
+        text-align: center;
+        font-size: 10px;
+        color: #68554A;
+        margin-top: 5px;
+        height: auto;
+        width: 100%;
+}
+#lock_icon img {
+	width: 20px
+}
+#login_title {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	color: #645953;
+}
+#login a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+#login h1 {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+	color: #645953;
+}
+

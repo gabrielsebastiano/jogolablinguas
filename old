@@ -1,0 +1,65 @@
+              <!-- C -->
+                                <div class="form-group">
+                                    <label>Texto C</label>
+                                    <input type="text" class="form-control" name="c" placeholder="Nome do arquivo ex(Meu malvado favorito)">
+                                    <small id="emailHelp" class="form-text text-muted">Coloque um nome que faça sentido com
+                                        o conteúdo no qual você está inserindo.
+                                    </small>
+                                </div>
+
+                                <!-- ENVIO DO ARQUIVO -->
+
+                                <div class="form-group">
+                                    <label>Imagem C</label>
+                                    <input type="file" class="form-control-file" name="fileUploadC">
+                                </div>
+                                <!--/ C -->
+                                <!-- D -->
+                                <div class="form-group">
+                                    <label>Texto D</label>
+                                    <input type="text" class="form-control" name="d" placeholder="Nome do arquivo ex(Meu malvado favorito)">
+                                    <small id="emailHelp" class="form-text text-muted">Coloque um nome que faça sentido com
+                                        o conteúdo no qual você está inserindo.
+                                    </small>
+                                </div>
+
+                                <!-- ENVIO DO ARQUIVO -->
+
+                                <div class="form-group">
+                                    <label>Imagem D</label>
+                                    <input type="file" class="form-control-file" name="fileUploadD">
+                                </div>
+                                <!--/ D-->
+                                <!-- E -->
+                                <div class="form-group">
+                                    <label>Texto E</label>
+                                    <input type="text" class="form-control" name="e" placeholder="Nome do arquivo ex(Meu malvado favorito)">
+                                    <small id="emailHelp" class="form-text text-muted">Coloque um nome que faça sentido com
+                                        o conteúdo no qual você está inserindo.
+                                    </small>
+                                </div>
+
+                                <!-- ENVIO DO ARQUIVO -->
+
+                                <div class="form-group">
+                                    <label>Imagem E</label>
+                                    <input type="file" class="form-control-file" name="fileUpload[]">
+                                </div>
+                                <!--/ E -->
+                                <!-- F -->
+                                <div class="form-group">
+                                    <label>Texto F</label>
+                                    <input type="text" class="form-control" name="f" placeholder="Nome do arquivo ex(Meu malvado favorito)">
+                                    <small id="emailHelp" class="form-text text-muted">Coloque um nome que faça sentido com
+                                        o conteúdo no qual você está inserindo.
+                                    </small>
+                                </div>
+
+                                <!-- ENVIO DO ARQUIVO -->
+
+                                <div class="form-group">
+                                    <label>Imagem F</label>
+                                    <input type="file" class="form-control-file" name="fileUploadF">
+                                </div>
+
+                                <!--/ F -->
